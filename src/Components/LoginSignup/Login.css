@@ -1,0 +1,60 @@
+  .maincontainer{
+    width: 420px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    background-color: rgb(111, 138, 127);
+    /* color: white; */
+  }
+
+
+  .login-form, .register-form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav {
+    gap: 10px ;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.maincontainer input{
+  margin: 0.50rem 0;
+  border: none;
+  height: 30px;
+  gap: 20px;
+  border-radius: 10px;
+  outline: none;
+  background-color: #9b9dad;
+}
+
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+
+.active {
+  background-color: rgb(127, 127, 153) !important;
+  color: white !important;
+}
+
+.inactive {
+  background-color: grey !important;
+  color: black !important;
+}
+
+.log-btn{
+  background-color: #56bcf9;
+  margin-top: 10px;
+  height: 30px;
+  margin-left: 70px;
+  width: 50%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.btn2{
+  margin-bottom: 10px;
+  margin-left: 35px;
+
+}
