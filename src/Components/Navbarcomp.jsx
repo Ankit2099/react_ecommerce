@@ -30,7 +30,7 @@ export default function Navbarcomp() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="home" className="text-white">Home</Nav.Link>
+                <Nav.Link href="about" className="text-white">About</Nav.Link>
                 {/* <Nav.Link href="login" className="text-white">Sign In</Nav.Link> */}
 
                 {LoggedIn() ? (

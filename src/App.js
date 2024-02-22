@@ -6,6 +6,8 @@ import Login from './Components/LoginSignup/Login';
 import Register from './Components/LoginSignup/Register';
 import Navbarcomp from './Components/Navbarcomp';
 import HomePage from './Components/Pages/HomePage';
+import About from './Components/Pages/About';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -33,14 +35,14 @@ function App() {
     <div className='App'  >
       <Navbarcomp />
       <Routes>
-            <Route path="/" element={<HomePage/>} />
+            <Route path="/home" element={<HomePage/>} />
             <Route path='/login' element={
                     currentForm === 'login' ? <Login onFormSwitch = {toggleform}/> : <Register onFormSwitch = {toggleform}/>
                   }/>
-            <Route path= '/home' element = {<HomePage />}/>
+            <Route path= '/about' element = {<About />}/>
       </Routes>
      
-
+      <Footer />
     </div>
     </BrowserRouter>
   );
